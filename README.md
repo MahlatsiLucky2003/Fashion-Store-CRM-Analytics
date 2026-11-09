@@ -81,9 +81,7 @@ The solution provides stakeholders with a single source of truth for analysing b
 
 The Executive Overview dashboard provides a high-level summary of overall business performance. It enables management to monitor revenue, profitability, orders, customer activity, and sales trends from a single view. This page is designed to support strategic decision-making by presenting the most important business metrics and performance indicators.
 
-### Dashboard Screenshot
-
-![Executive Overview](Dashboard/ExecutiveOverview.png)
+![Executive Overview](Development/Dashboard/ExecutiveOverview.png)
 
 ---
 
