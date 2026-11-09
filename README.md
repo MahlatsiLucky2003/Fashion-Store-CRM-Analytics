@@ -69,9 +69,7 @@ The solution provides stakeholders with a single source of truth for analysing b
 
 ### Solution Architecture
 
-> Replace the placeholder below with the architecture diagram screenshot.
-
-![Architecture Diagram](Development/SemanticModel/CRMArchitectureDiagram.png)
+![Architecture Diagram](Development/Semantic%20Model/CRMArchitectureDiagram.png)
 
 ---
 
