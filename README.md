@@ -69,7 +69,7 @@ The solution provides stakeholders with a single source of truth for analysing b
 
 ### Solution Architecture
 
-![Architecture Diagram](Development/SemanticModel/CRMArchitectureDiagram.png)
+![Architecture Diagram](Development/SemanticModel/CRMArchitectureDiagram.jpg)
 
 ---
 
