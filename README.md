@@ -83,9 +83,7 @@ The Executive Overview dashboard provides a high-level summary of overall busine
 
 ### Dashboard Screenshot
 
-```text
-[Insert Executive Overview Screenshot]
-```
+![Executive Overview](Dashboard/ExecutiveOverview.png)
 
 ---
 
