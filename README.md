@@ -71,9 +71,7 @@ The solution provides stakeholders with a single source of truth for analysing b
 
 > Replace the placeholder below with the architecture diagram screenshot.
 
-```text
-[Insert Architecture Diagram Here]
-```
+![Architecture Diagram](Development/SemanticModel/CRMArchitectureDiagram.png)
 
 ---
 
