@@ -89,11 +89,7 @@ The Executive Overview dashboard provides a high-level summary of overall busine
 
 The Product Performance dashboard focuses on how products, categories, and brands contribute to overall business success. It helps identify best-selling products, top-performing categories, and key revenue drivers, supporting merchandising, inventory, and product strategy decisions.
 
-### Dashboard Screenshot
-
-```text
-[Insert Product Performance Screenshot]
-```
+![Product Performance](Development/Dashboard/ProductPerformance.png)
 
 ---
 
@@ -101,11 +97,7 @@ The Product Performance dashboard focuses on how products, categories, and brand
 
 The Customer Analytics dashboard provides insights into customer demographics and purchasing behaviour. It helps stakeholders understand customer segments, identify valuable customer groups, and analyse how different customer categories contribute to sales performance.
 
-### Dashboard Screenshot
-
-```text
-[Insert Customer Analytics Screenshot]
-```
+![Customer Analytics](Development/Dashboard/CustomerAnalytics.png)
 
 ---
 
@@ -113,11 +105,7 @@ The Customer Analytics dashboard provides insights into customer demographics an
 
 The Campaign Performance dashboard evaluates the effectiveness of promotional campaigns and discount initiatives. It enables the business to assess campaign impact on sales performance, customer engagement, and promotional effectiveness, supporting informed marketing decisions.
 
-### Dashboard Screenshot
-
-```text
-[Insert Campaign Performance Screenshot]
-```
+![Campaign Performance](Development/Dashboard/CampaignPerformance.png)
 
 ---
 
@@ -127,9 +115,7 @@ The Channel Performance dashboard compares business performance across sales cha
 
 ### Dashboard Screenshot
 
-```text
-[Insert Channel Performance Screenshot]
-```
+![Channel Performance](Development/Dashboard/ChannelPerformance.png)
 
 ---
 
