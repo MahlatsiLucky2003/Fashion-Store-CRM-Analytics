@@ -1,170 +1,57 @@
 # Fashion Store CRM Analytics
 
 ## Project Overview
-
-Fashion Store CRM Analytics is an end-to-end analytics solution developed using Databricks and Power BI.
-
-The project is based on a simulated European fashion retail business operating through E-commerce and Mobile App channels. Although the dataset is fictional, it has been designed to reflect realistic retail operations, customer behaviour, sales transactions, promotional campaigns, and business reporting requirements.
-
-The solution transforms raw retail data into actionable business insights through data ingestion, warehousing, orchestration, semantic modelling, and interactive dashboard reporting.
-
----
+An end-to-end retail data and business intelligence solution built with Databricks and Power BI for a European fashion retail business operating across E-commerce and Mobile App channels. It takes raw retail transaction records, organizes them into a structured reporting foundation, models key business metrics, and delivers interactive visual dashboards.
 
 ## Problem Statement
-
-Modern fashion retailers generate large volumes of transactional data across multiple sales channels. While the data contains valuable information, raw datasets alone do not provide meaningful business insights for decision-making.
-
-Business stakeholders need a centralized analytics solution that enables them to monitor performance, understand customer behaviour, evaluate campaign effectiveness, analyse product sales, and compare channel performance.
-
-Without a structured analytics platform, identifying trends, opportunities, and areas for improvement becomes challenging and time-consuming.
-
----
+Fashion retailers generate high volumes of data across multiple digital channels, making it difficult to get a clear, unified view of business performance from raw records alone. Without a centralized analytics solution, tracking sales trends, understanding customer purchasing habits, evaluating promotional campaigns, and comparing channel performance takes manual effort and slows down decision-making.
 
 ## Objectives
+* Centralize multi-channel retail data into a single, reliable reporting foundation.
+* Automate data ingestion and preparation to reduce manual work and improve consistency.
+* Establish standardized business metrics across sales, customers, products, and promotions.
+* Deliver clear, interactive dashboards to support strategic and operational decisions across retail teams.
 
-- Build an end-to-end analytics solution using Databricks and Power BI.
-- Design and implement a dimensional data warehouse using a Star Schema.
-- Automate data ingestion and transformation processes.
-- Develop a semantic model for self-service analytics.
-- Create interactive dashboards to support business decision-making.
-- Deliver actionable insights across customers, products, campaigns, sales, and channels.
-
----
-
-## KPI Metrics
-
-### Sales Metrics
-
-- Total Sales
-- Total Orders
-- Average Order Value
-- Gross Profit
-- Profit Margin %
-
-### Customer Metrics
-
-- Total Customers
-
-### Product Metrics
-
-- Total Quantity Sold
-- Products Sold
-
-### Campaign Metrics
-
-- Total Discount Amount
-- Discounted Orders
-
----
-
-## Solution: Fashion Store CRM Analytics
-
-Fashion Store CRM Analytics follows a modern analytics architecture that ingests raw CSV files into Databricks, processes and stores data within a dimensional data warehouse, automates transformations through Databricks Jobs, and delivers business insights through Power BI dashboards.
-
-The solution provides stakeholders with a single source of truth for analysing business performance and enables data-driven decision-making across key retail functions.
-
----
-
-## Architecture Diagram
-
-### Solution Architecture
+## Solution Overview
+The solution moves retail data step by step from raw source files through automated cloud data processing and warehousing into a unified business metric model. From there, it powers five interactive Power BI dashboards that give stakeholders a single source of truth across key retail functions.
 
 ![Architecture Diagram](Development/SemanticModel/CRMArchitectureDiagram.jpg)
 
----
-
-## Sheet 1: Executive Overview
-
-The Executive Overview dashboard provides a high-level summary of overall business performance. It enables management to monitor revenue, profitability, orders, customer activity, and sales trends from a single view. This page is designed to support strategic decision-making by presenting the most important business metrics and performance indicators.
+## Executive Overview
+Gives leadership a high-level view of overall revenue, profitability, order volume, customer activity, and sales trends in one place to guide strategic planning.
 
 ![Executive Overview](Development/Dashboard/ExecutiveOverview.png)
 
----
-
-## Sheet 2: Product Performance
-
-The Product Performance dashboard focuses on how products, categories, and brands contribute to overall business success. It helps identify best-selling products, top-performing categories, and key revenue drivers, supporting merchandising, inventory, and product strategy decisions.
+## Product Performance
+Highlights how individual products, categories, and brands contribute to overall revenue, helping teams identify best-sellers and shape merchandising and inventory decisions.
 
 ![Product Performance](Development/Dashboard/ProductPerformance.png)
 
----
-
-## Sheet 3: Customer Analytics
-
-The Customer Analytics dashboard provides insights into customer demographics and purchasing behaviour. It helps stakeholders understand customer segments, identify valuable customer groups, and analyse how different customer categories contribute to sales performance.
+## Customer Analytics
+Provides insights into customer demographics and buying habits, helping stakeholders identify high-value customer segments and understand how different groups drive sales.
 
 ![Customer Analytics](Development/Dashboard/CustomerAnalytics.png)
 
----
-
-## Sheet 4: Campaign Performance
-
-The Campaign Performance dashboard evaluates the effectiveness of promotional campaigns and discount initiatives. It enables the business to assess campaign impact on sales performance, customer engagement, and promotional effectiveness, supporting informed marketing decisions.
+## Campaign Performance
+Evaluates the impact of promotional campaigns and discount initiatives on sales volume and customer engagement to support smarter marketing decisions.
 
 ![Campaign Performance](Development/Dashboard/CampaignPerformance.png)
 
----
-
-## Sheet 5: Channel Performance
-
-The Channel Performance dashboard compares business performance across sales channels. It provides insights into customer engagement, revenue contribution, and order activity across E-commerce and Mobile App platforms, helping the business understand channel effectiveness.
-
-### Dashboard Screenshot
+## Channel Performance
+Compares customer engagement, order activity, and revenue contribution between E-commerce and Mobile App platforms to show how each sales channel performs.
 
 ![Channel Performance](Development/Dashboard/ChannelPerformance.png)
 
----
-
-## Tasks
-
-### Ingestion
-
-- Created PySpark ingestion notebooks.
-- Loaded raw CSV files into Databricks Delta tables.
-- Performed data validation and cleansing.
-- Standardised source data for downstream processing.
-
-### Warehousing
-
-- Designed and implemented a dimensional data warehouse.
-- Created a Star Schema data model.
-- Developed fact and dimension tables.
-- Established relationships between business entities.
-
-### Orchestration
-
-- Developed Databricks Jobs for workflow automation.
-- Configured dependency-based task execution.
-- Automated data ingestion and transformation processes.
-
-### Semantic Modelling
-
-- Built a Power BI semantic model.
-- Defined relationships between fact and dimension tables.
-- Developed DAX measures and KPI calculations.
-- Optimised the model for reporting and analysis.
-
-### Dashboard Building
-
-- Developed five interactive dashboard pages.
-- Designed business-focused KPI scorecards.
-- Created analytical visualisations and filters.
-- Delivered reporting solutions for business stakeholders.
-
----
+## Tasks & Activities
+* **Data Ingestion:** Built automated workflows to bring raw retail files into the cloud platform, validate quality, and standardize records.
+* **Data Warehousing:** Designed a structured reporting warehouse to organize historical sales, product, customer, and campaign data for fast analysis.
+* **Workflow Orchestration:** Configured automated, scheduled pipelines so data updates run reliably from end to end.
+* **Semantic Modeling:** Created a centralized business metric layer covering sales, profitability, orders, customers, and discounts so reports share consistent numbers.
+* **Interactive Dashboards:** Built five visual Power BI dashboards tailored for executive, merchandising, marketing, and channel teams.
 
 ## Technology Stack
-
-| Category | Technology |
-|-----------|------------|
-| Data Platform | Databricks Free Edition |
-| Data Processing | PySpark |
-| Data Storage | Delta Lake |
-| Data Warehousing | Star Schema |
-| Query Language | SQL |
-| Orchestration | Databricks Jobs |
-| Semantic Modelling | Power BI Data Model |
-| Analytics Language | DAX |
-| Business Intelligence | Microsoft Power BI |
-| Source Data | CSV Files |
-| Version Control | GitHub |
+* **Data Platform & Processing:** Databricks, PySpark, SQL
+* **Storage & Warehousing:** Delta Lake
+* **Orchestration:** Databricks Jobs
+* **Business Intelligence & Reporting:** Microsoft Power BI (Semantic Model, DAX, Interactive Dashboards)
+* **Version Control:** GitHub
